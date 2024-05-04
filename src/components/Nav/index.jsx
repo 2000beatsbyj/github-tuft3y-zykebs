@@ -5,12 +5,12 @@ function Nav() {
   return (
     <nav className={Styles.nav}>
       <a className={Styles.logolink} href="/">
-        <div className={Styles.monogram}>JW</div>
+        <div className={Styles.monogram}>BeatsByJ</div>
       </a>
-      <a className={Styles.link} href="/projects">
+      <a className={Styles.link} href="./projects">
         Portfolio
       </a>
-      <a className={Styles.link} href="/about">
+      <a className={Styles.link} href="./about">
         About
       </a>
       <a className={Styles.social} href="https://twitter.com/me">
